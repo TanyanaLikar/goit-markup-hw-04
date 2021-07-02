@@ -58,6 +58,7 @@ body {
 .secondary-title {
   margin-bottom: 10px;
 }
+
 /*-------------HEADER------------*/
 .header {
   padding-top: 25px;
@@ -138,7 +139,15 @@ body {
 /*------------------HERO-----------------*/
 .hero {
   background-color: var(--background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/bg.jpg);
+  background-size: cover;
   max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -216,8 +225,7 @@ body {
   margin-top: 30px;
 }
 /*----------- END ABOUT--------------*/
-/*-------------TEAM--------------*/
-.team {
+-------------TEAM-------------- .team {
   background-color: #f5f4fa;
 }
 
