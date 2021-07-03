@@ -80,8 +80,12 @@ body {
 .menu-contakt {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
-
+.contact-icon {
+  margin-right: 10px;
+  fill: var(--secondary-color);
+}
 .logo-link {
   margin-right: 93px;
   font-family: var(--secondary-font);
@@ -225,7 +229,29 @@ body {
   margin-top: 30px;
 }
 /*----------- END ABOUT--------------*/
--------------TEAM-------------- .team {
+/* -------------TEAM--------------  */
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  fill: #afb1b8;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--white-color);
+}
+
+.team {
   background-color: #f5f4fa;
 }
 
@@ -268,6 +294,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-bottom: 16px;
 }
 .team-box {
   padding: 30px 32px;
@@ -313,6 +340,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
 /*--------------END FOOTER---------*/
