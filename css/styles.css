@@ -308,10 +308,42 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.logo-contakt {
+  margin-right: 70px;
+}
+.footer-container {
+  display: flex;
+}
+.footer-list {
+  display: flex;
+}
+.footer-title {
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+.footer-social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+}
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: var(--accent-color);
+}
 
 .address {
   font-style: inherit;
 }
+
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
